@@ -1,0 +1,87 @@
+@CHARSET "UTF-8";
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+	list-style: none;
+}
+
+body{
+	font: 300 16px Oswald;
+}
+
+.message{
+	margin-top: 5px;
+}
+
+#login{
+	width: 300px;
+	margin: 0 auto;
+	position: relative;
+	top: 200px;
+	border: 1px solid #f1f1f1;
+	padding: 15px;
+}
+
+#login label{
+	padding: 5px 0 0 0;
+}
+
+.acomodar{
+	margin: 0 auto;
+	width: 250px;
+}
+
+.txt{
+	border: none;
+	height: 40px;
+	width: 250px;
+	border: thin solid #f1f1f1;
+}
+
+.txt:focus{
+	border: thin solid #09f;
+	box-shadow: 0 2px 16px #09f;
+	-webkit-box-shadow: 0 2px 16px #09f;
+	-moz-box-shadow: 0 2px 16px #09f;
+}
+
+.sb{
+	display: block;
+	border: none;
+	width: 250px;
+	height: 40px;
+	margin-top: 10px;
+	cursor: pointer;
+	font: 400 18px Oswald;
+	color: #999;
+}
+
+.sb:HOVER{
+	background: #09f;
+	color: #fff;
+}
+
+/* Classes de heranca */
+
+.bradius{
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+}
+
+.fleft{
+	float: left;
+}
+
+.fright{
+	float: right;
+}
+
+/* Multiplos estilos */
+
+.txt, .txt:focus, .sb, .sb:HOVER {
+	transition: all 0.5s linear;
+	-webkit-transition: all 0.5s linear;
+	-moz-transition: all 0.5s linear;
+}
