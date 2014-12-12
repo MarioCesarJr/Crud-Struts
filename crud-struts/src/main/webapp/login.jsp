@@ -11,11 +11,11 @@
 <link rel="stylesheet" type="text/css" href="resources/css/style.css" />
 <body>
 
-	<div id="login" class="bradius">
-		<div class="message">
+    <div class="message">
 			<s:property value="mensagem" />
-		</div>
+	</div>
 
+	<div id="login" class="bradius">
 		<div class="acomodar">
 			<s:form action="Login">
 				<s:label value="Usuário" />

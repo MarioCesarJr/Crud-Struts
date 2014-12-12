@@ -37,7 +37,7 @@ public class AutenticacaoAction extends ActionSupport{
 	}
 	
 	public String logout(){
-		HttpSession session = ServletActionContext.getRequest().getSession();
+		HttpSession session = ServletActionContext.getRequest().getSession(true);
 		session.removeAttribute("usuario");
 		
 		this.mensagem = "Até logo!";
